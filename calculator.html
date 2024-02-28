@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <h2>Calculator</h2>
+    <div id="main">
+      <div id="box">
+        <div class="input"></div>
+        <div class="btn">
+          <button onclick="operator('+');">+</button>
+          <button onclick="operator('-');">-</button>
+          <button onclick="operator('*');">*</button>
+          <button onclick="operator('/');">/</button>
+
+          <button onclick="solve('7');">7</button>
+          <button onclick="solve('8');">8</button>
+          <button onclick="solve('9');">9</button>
+          <button onclick="solve('%');">%</button>
+
+          <button onclick="solve('4');">4</button>
+          <button onclick="solve('5');">5</button>
+          <button onclick="solve('6');">6</button>
+          <button onclick="delValue();">DEL</button>
+
+          <button onclick="solve('1');">1</button>
+          <button onclick="solve('2');">2</button>
+          <button onclick="solve('3');">3</button>
+          <button onclick="allClear();">AC</button>
+
+          <button class="last" onclick="solve('0');">0</button>
+          <button class="last1" onclick="output();">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
