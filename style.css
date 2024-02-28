@@ -112,7 +112,7 @@ ul a{
   height: 280px;
   border-radius: 50px;
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow: 31px 31px 61px #bebebe, -31px -31px 61px #ffffff;
+  /* box-shadow: 31px 31px 61px #bebebe, -31px -31px 61px #ffffff; */
   display: flex;
   justify-content: center;
   align-items: center;
