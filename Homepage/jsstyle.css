@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: white;
+  transition: all 0.2s ease;
+}
+#nav {
+  display: inline-block;
+  width: 260px;
+  height: 100vh;
+  position: relative;
+}
+.logo {
+  width: fit-content;
+  padding: 8px 8px;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  /* background-color: red; */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.logo:hover {
+  color: white;
+  transition: all 0.4s ease;
+}
+.logoShow {
+  width: 100%;
+  transition: width 0.4s ease-out;
+}
+.hide {
+  height: 100%;
+  background-color: grey;
+  padding: 8px 8px;
+  position: absolute;
+  left: -260px;
+  transition: all 0.4s ease-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+ul {
+  margin-top: 8%;
+}
+ul li {
+  padding-bottom: 15px;
+}
+.content {
+  display: inline-block;
+  /* background-color: blue; */
+  position: absolute;
+  top: 0;
+  left: 46px;
+  width: fit-content;
+  text-wrap: wrap;
+  padding: 10px;
+}
+.showContent {
+  position: absolute;
+  left: 260px;
+  transition: all 0.4s ease-out;
+}
+.show {
+  display: visible;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease-out;
+}
